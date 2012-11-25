@@ -1,0 +1,9 @@
+// примерси v1.0
+
+// растягивает картинку по всей ширене контейнера
+.background-size-100(@url){
+  background: ~"url('@{url}')" no-repeat ;
+  .background-size( 100% 100%);
+  filter:~"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@{url}', sizingMethod='scale')";
+  -ms-filter:~"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@{url}', sizingMethod='scale')";
+}
