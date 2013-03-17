@@ -5815,7 +5815,6 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     height: auto !important;
     overflow: visible !important; } }
 .menu {
-  -webkit-filter: blur(10px);
   position: fixed;
   background-color: rgba(255, 255, 255, 0.52);
   width: 100%;
