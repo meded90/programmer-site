@@ -5836,3 +5836,9 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 .body-box {
   padding-top: 60px; }
+
+.tal {
+  text-align: left; }
+
+.tar {
+  text-align: right; }
