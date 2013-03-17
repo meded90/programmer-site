@@ -57,7 +57,7 @@ a.text-success:focus { color: darken($successText, 10%); }
 // -------------------------
 
 h1, h2, h3, h4, h5, h6 {
-  margin: ($baseLineHeight / 2) 0;
+  margin: $baseLineHeight  0($baseLineHeight / 2);
   font-family: $headingsFontFamily;
   font-weight: $headingsFontWeight;
   line-height: $baseLineHeight;
@@ -69,7 +69,9 @@ h1, h2, h3, h4, h5, h6 {
     color: $grayLight;
   }
 }
-
+h1{
+  margin-top: 0;
+}
 h1,
 h2,
 h3 { line-height: $baseLineHeight * 2; }
